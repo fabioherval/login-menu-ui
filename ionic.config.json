@@ -1,5 +1,7 @@
 {
   "name": "login-menu-ui",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
