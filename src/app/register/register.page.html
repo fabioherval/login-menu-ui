@@ -1,5 +1,5 @@
 <ion-header class="ion-no-border">
-  <div class="login-header ion-padding">
+  <div class="register-header ion-padding">
     <img class="logo-img" src="../../assets/images/logo.png">
   </div>
 </ion-header>
@@ -7,11 +7,11 @@
 <ion-content>
   <div class="center">
     <div heading-column-lr>
-      <h1 big-heading>Login</h1>
-      <h2 small-heading routerLink="/register">REGISTRO</h2>
+      <h1 big-heading>Registro</h1>
+      <h2 small-heading routerLink="/login">LOGIN</h2>
     </div>
     <ion-label>
-      Entre com suas credenciais para utilizar as funções do app.
+      Registre-se para utilizar as funções do app.
     </ion-label>
     <ion-item transparent>
       <img icon-small src="../../assets/images/user.png">
@@ -21,12 +21,15 @@
       <img icon-small src="../../assets/images/lock.png">
       <ion-input type="password" placeholder="Senha"></ion-input>
     </ion-item>
-    <ion-label class="forget-password">Perdeu sua Senha?</ion-label>
+    <ion-item transparent>
+      <img icon-small src="../../assets/images/lock.png">
+      <ion-input type="password" placeholder="Confirme a Senha"></ion-input>
+    </ion-item>
 
     <div linespace></div>
 
     <ion-button color="primary" expand="block" fill="solid" size="large" routerLink="/home">
-      LOGIN
+      REGISTRAR
     </ion-button>
   </div>
 </ion-content>
